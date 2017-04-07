@@ -25,7 +25,7 @@
                             {{csrf_field()}}
                             <textarea name="new_message" class="form-control" rows="3" style="resize: none;width: 100%;height: 300px;"></textarea>
                             <div class="create" style="float: right;margin: 20px;">
-                                <button class="btn btn-danger">返回</button>
+                                <a href="{{route('message.list')}}"><button type="button" class="btn btn-danger">返回</button></a>
                             </div>
                             <div class="create" style="float: right;margin: 20px;">
                                 <button name="create" type="submit" class="btn btn-success">创建</button>
